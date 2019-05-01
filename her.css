@@ -8,11 +8,11 @@ html,body {
 	font-family:Questrial;
 }
 #logo-text{
-	font-family:Arial Black;
-	font-size:33px;
+	display:block;
+	width:210px;
 	position:fixed;
-	top:-6px;
-	left:10px;
+	top:10px;
+	left:5px;
 }
 #side-text{
 	font-size:20px;
