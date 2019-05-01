@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
+html,body {
+    margin:0;
+    padding:0;
+	font-family:Questrial;
+}
+#logo-text{
+	font-family:Arial Black;
+	font-size:33px;
+	position:fixed;
+	top:-6px;
+	left:10px;
+}
+#side-text{
+	font-size:20px;
+	position:absolute;
+	right: 0;
+	padding-bottom:24px;
+	top:20px;
+	margin-right:20px;
+	border-bottom: solid black 5px;
+}
+#logo{
+	width: 100%;
+	height:80px;
+	position:fixed;
+	text-align:center;
+	background:white;
+	z-index:1;
+}
+
+.slider {
+	margin: 0 auto;
+	position:relative;
+	opacity: 1;	
+	top: 81px;
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 320px;
+	position: relative;
+}
+.slider-wrapper img{
+	object-fit: cover;
+}
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+#two-boxes{
+	text-align:center;
+	margin-top: 145px;
+}
+#two-boxes li{
+	height: 300px;
+	width:300px;
+	display:inline-block;
+	position:relative;
+	top:-20px;
+	right:18px;
+}
+#two-boxes li:hover{
+	cursor:pointer;
+}
+#two-boxes li h1{
+	position:relative;
+	top:295px;
+	font-size:25px;
+}
+#two-boxes li h2{
+	position:relative;
+	top:285px;
+	font-size:20px;
+	color:rgba(85,85,85,1);
+}
+#buy{
+	width:100%;
+	position:relative;
+	top:50px;
+	text-align:center;
+}
+#buy h3{
+	font-size:16px;
+	color:rgba(189,175,108,1);
+	width:150px;
+	height:40px;
+	background:black;
+	padding-top:22px;
+	border-radius: 3px;
+	display: inline-block;
+	margin:0 100px;
+}
+#buy h3:hover{
+	cursor:pointer;
+	color:rgba(189,175,108,0.8);
+}
+
+#box1{
+	background: url(images/main1.jpg) no-repeat;
+	background-size:cover;
+	margin-right:50px;
+}
+#box2{
+	background: url(images/main2.jpg) no-repeat;
+	background-size:cover;
+}
+footer{
+  position: absolute;
+	top: 1050px;
+	width: 100%;
+	height: 130px;
+	text-align:center;
+	background-color:rgba(0,0,0,0.04);
+	left:0;
+}
+footer ol{
+	padding:0;
+}
+footer li{
+	color:black;
+	text-align:block;
+	position:relative;
+	top:24px;
+	text-decoration: none;
+}
+footer li:hover{
+	text-decoration:underline;
+}
+.underline a{
+	margin-bottom:10px;
+	display:block;
+	font-family:raleway;
+	font-weight:700;
+	text-decoration:none;
+	color: rgba(0,0,0,0.9);
+	font-size:20px;
+	position:relative;
+	top:13px;
+}
+#copyright{
+	display:none;	
+}
+footer li:not(.underline){
+	display:none;
+}
+#footer2{
+	width:100%;
+	text-align:center;	
+	padding-bottom:50px;
+	position:relative;
+	top:400px;
+}
+#footer2 img{
+	width:200px;
+	margin-bottom:-10px;
+}
+#footer2 h3{
+	font-weight:400;
+	font-size:13px;	
+}
