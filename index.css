@@ -29,7 +29,7 @@ html,body {
 	position:fixed;
 	text-align:center;
 	background:white;
-	z-index:1;
+	z-index:2;
 }
 
 .slider {
@@ -94,6 +94,7 @@ html,body {
 	border-radius: 3px;
 	position:relative;
 	top:305px;
+	z-index:1;
 }
 #two-boxes li h3:hover{
 	color:rgba(189,175,108,0.8);
