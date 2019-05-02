@@ -59,7 +59,6 @@ html,body {
 .slider-wrapper > .slide:first-child {
 	opacity: 1;
 }
-
 #two-boxes{
 	text-align:center;
 	margin-top: 145px;
@@ -86,25 +85,17 @@ html,body {
 	font-size:20px;
 	color:rgba(85,85,85,1);
 }
-#buy{
-	width:100%;
-	position:relative;
-	top:50px;
-	text-align:center;
-}
-#buy h3{
+#two-boxes li h3{
+	display:inline;
 	font-size:16px;
 	color:rgba(189,175,108,1);
-	width:150px;
-	height:40px;
 	background:black;
-	padding-top:22px;
+	padding:15px;
 	border-radius: 3px;
-	display: inline-block;
-	margin:0 100px;
+	position:relative;
+	top:305px;
 }
-#buy h3:hover{
-	cursor:pointer;
+#two-boxes li h3:hover{
 	color:rgba(189,175,108,0.8);
 }
 
@@ -211,14 +202,8 @@ footer li:not(.underline){
 		font-size:17px;
 		top:190px;
 	}
-	#buy{
-		top:-85px;
-	}
-	#buy h3{
-		font-size:14px;
-		padding:15px;
-		display: inline;
-		margin:0 65px;
+	#two-boxes li h3{
+		top:210px;
 	}
 	footer{
 		top:60px;
@@ -242,24 +227,11 @@ footer li:not(.underline){
 	#two-boxes #box1{
 		margin-bottom:180px;
 	}
-		#buy{
-		top:-380px;
-	}
-	#buy h3{
-		width:120px;
-		height:15px;
-		font-size:14px;
-		display:block;
-		margin:0 auto;
-		position:relative;
-		left:2px;
-	}
-	#problem{
-		position:relative;
-		top:425px;
-	}
 	#footer2 img{
 	width:180px;
-}
-
+	}
+	#allfoot{
+		position:relative;
+		top:110px;
+	}
 }
