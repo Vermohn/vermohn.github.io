@@ -175,7 +175,7 @@ footer li:not(.underline){
 	font-size:13px;	
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
 	#logo-text{
 		width:180px;
 		top:15px;
@@ -192,8 +192,8 @@ footer li:not(.underline){
 		top:-3px;
 	}
 	#two-boxes li{
-		height: 300px;
-		width:300px;
+		height: 310px;
+		width:310px;
 		display:inline-block;
 		top:-20px;
 		right:18px;
