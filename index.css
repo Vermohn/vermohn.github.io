@@ -8,11 +8,11 @@ html,body {
 	font-family:Questrial;
 }
 #logo-text{
-	font-family:Arial Black;
-	font-size:33px;
+	display:block;
+	width:210px;
 	position:fixed;
-	top:-6px;
-	left:10px;
+	top:10px;
+	left:5px;
 }
 #side-text{
 	font-size:20px;
@@ -170,4 +170,57 @@ footer li:not(.underline){
 #footer2 h3{
 	font-weight:400;
 	font-size:13px;	
+}
+
+@media screen and (max-width: 800px) {
+	#logo-text{
+		width:180px;
+		top:15px;
+		left:2px;
+	}
+	#side-text{
+		font-size:18px;
+		right: -5px;
+		margin-top:14px;
+		border-bottom: solid black 4px;
+	}
+	.slider-wrapper{
+		height: 250px;
+		top:-3px;
+	}
+	#two-boxes li{
+		height: 200px;
+		width:200px;
+		display:inline-block;
+		top:-20px;
+		right:18px;
+		margin: 0 4%;
+	}
+	#two-boxes #box1{
+		margin-bottom:150px;
+	}
+	#two-boxes li h1{
+		font-size:20px;
+		top:200px;
+	}
+	#two-boxes li h2{
+		font-size:17px;
+		top:190px;
+	}
+	#buy{
+		top:-85px;
+	}
+	#buy h3{
+		font-size:14px;
+		padding:15px;
+		display: inline;
+		margin:0 65px;
+	}
+	footer{
+		top:900px;	
+	}
+	#footer2{
+		top:300px;
+	}
+	
 }
