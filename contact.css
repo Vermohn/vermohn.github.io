@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
+html,body {
+    margin:0;
+    padding:0;
+	font-family:Questrial;
+}
+#logo-text{
+	display:block;
+	width:210px;
+	position:fixed;
+	top:10px;
+	left:5px;
+}
+#side-text{
+	font-size:20px;
+	position:absolute;
+	right: 0;
+	padding-bottom:24px;
+	top:20px;
+	margin-right:20px;
+	border-bottom: solid black 5px;
+}
+#logo{
+	width: 100%;
+	height:80px;
+	position:fixed;
+	text-align:center;
+	background:white;
+	z-index:2;
+}
+
+
+.slider {
+	margin: 0 auto;
+	position:relative;
+	opacity: 1;	
+	top: 81px;
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 320px;
+	position: relative;
+}
+.slider-wrapper img{
+	object-fit: cover;
+}
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+#contact{
+	width:100%;
+	text-align:center;
+	position:relative;
+	top:150px;
+}
+#contact h3{
+	font-size:20px;
+}
+#contact h2{
+	font-size:30px;
+	color:black;
+	border-bottom:solid black 4px;
+	width:85%;
+	padding-bottom:15px;
+	margin:0 auto;
+}
+#contact h4{
+	font-size:15px;
+}
+@media screen and (max-width: 800px) {
+		#logo-text{
+		width:180px;
+		top:15px;
+		left:2px;
+	}
+	#side-text{
+		font-size:18px;
+		right: -5px;
+		margin-top:14px;
+		border-bottom: solid black 4px;
+	}
+	#contact h3{
+		font-size:17px;
+	}
+	#contact h2{
+		font-size:25px;
+	}
+	#contact h4{
+		font-size:12px;
+	}
+}
+@media screen and (max-width: 500px) {
+	#contact h3{
+		font-size:13px;
+	}
+	#contact h2{
+		font-size:17px;
+	}
+	#contact h4{
+		font-size:10px;
+	}
+}

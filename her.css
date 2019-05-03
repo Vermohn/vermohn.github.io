@@ -175,7 +175,7 @@ footer li:not(.underline){
 	font-size:13px;	
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
 	#logo-text{
 		width:180px;
 		top:15px;
@@ -192,8 +192,8 @@ footer li:not(.underline){
 		top:-3px;
 	}
 	#two-boxes li{
-		height: 300px;
-		width:300px;
+		height: 310px;
+		width:310px;
 		display:inline-block;
 		top:-20px;
 		right:18px;
@@ -208,17 +208,22 @@ footer li:not(.underline){
 		font-size:17px;
 		top:290px;
 	}
-	#buy{
-		top:-85px;
+	span{
+		position:relative;
+		top:300px;
+		z-index:1;
+		display:inline;
+		padding:7px;
+		color:rgba(189,175,108,1);
+		background:black;
+		font-size:20px;
+		opacity: 1;
 	}
-	#buy h3{
-		font-size:14px;
-		padding:15px;
-		display: inline;
-		margin:0 65px;
+	#box1 span:hover,#box2 span:hover,#box3 span:hover,#box4 span:hover{
+		color:rgba(189,175,108,0.8);
 	}
 	footer{
-		top:1305px;
+		top:1330px;
 		height: 100px;
 	}
 	.underline a{
@@ -234,11 +239,11 @@ footer li:not(.underline){
 		padding-bottom:25px;
 	}
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 785px) {
 #two-boxes li{
 		height:250px;
 		width:250px;
-		margin-bottom:120px;
+		margin-bottom:180px;
 	}
 #two-boxes li h1{
 		font-size:20px;
@@ -249,12 +254,16 @@ footer li:not(.underline){
 		top:245px;
 	}
 		footer{
-		top:1208px;
+		top:1328px;
+	}
+	span{
+		position:relative;
+		top:250px;
 	}
 }
 @media screen and (max-width: 645px) {
 	footer{
-		top:1950px;
+		top:2185px;
 	}
 		#footer2 img{
 	width:180px;
