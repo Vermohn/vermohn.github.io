@@ -82,6 +82,11 @@ html,body {
 	font-size:15px;
 }
 @media screen and (max-width: 800px) {
+	.slider-wrapper {
+		width: 100%;
+		height: 330px;
+		position: relative;
+	}
 		#logo-text{
 		width:180px;
 		top:15px;

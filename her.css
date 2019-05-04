@@ -188,7 +188,7 @@ footer li:not(.underline){
 		border-bottom: solid black 4px;
 	}
 	.slider-wrapper{
-		height: 250px;
+		height: 330px;
 		top:-3px;
 	}
 	#two-boxes li{
@@ -235,7 +235,7 @@ footer li:not(.underline){
 		top:-8px;
 	}
 	#footer2{
-		top:190px;
+		top:105px;
 		padding-bottom:25px;
 	}
 }
