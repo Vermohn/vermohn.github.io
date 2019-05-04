@@ -90,7 +90,7 @@ html,body {
 	font-size:16px;
 	color:rgba(189,175,108,1);
 	background:black;
-	padding:15px;
+	padding:13px;
 	border-radius: 3px;
 	position:relative;
 	top:305px;
@@ -205,7 +205,7 @@ footer li:not(.underline){
 	}
 	#two-boxes li h3{
 		top:210px;
-		font-size:12px;
+		font-size:11px;
 	}
 	footer{
 		top:60px;
@@ -226,6 +226,23 @@ footer li:not(.underline){
 }
 
 @media screen and (max-width: 520px) {
+	#logo{
+		height:60px;
+	}
+		#logo-text{
+		width:150px;
+		top:10px;
+	}
+	#side-text{
+		font-size:15px;
+		right: -5px;
+		margin-top:5px;
+		padding-bottom:16px;
+	}
+	.slider-wrapper{
+		height: 260;
+		top:-21px;
+	}
 	#two-boxes #box1{
 		margin-bottom:180px;
 	}
