@@ -241,18 +241,21 @@ footer li:not(.underline){
 }
 
 @media screen and (max-width: 785px) {
-#two-boxes li{
+	#two-boxes li{
 		height:250px;
 		width:250px;
 		margin-bottom:180px;
 	}
-#two-boxes li h1{
-		font-size:20px;
+	#two-boxes li h1{
+		font-size:17px;
 		top:255px;
 	}
 	#two-boxes li h2{
-		font-size:17px;
+		font-size:15px;
 		top:245px;
+	}
+	span{
+		font-size:15px;
 	}
 		footer{
 		top:1328px;
@@ -263,6 +266,23 @@ footer li:not(.underline){
 	}
 
 @media screen and (max-width: 645px) {
+	#logo{
+		height:60px;
+	}
+		#logo-text{
+		width:150px;
+		top:10px;
+	}
+	#side-text{
+		font-size:15px;
+		right: -5px;
+		margin-top:5px;
+		padding-bottom:16px;
+	}
+	.slider-wrapper{
+		height: 260;
+		top:-20.7px;
+	}
 	footer{
 		top:2185px;
 	}
