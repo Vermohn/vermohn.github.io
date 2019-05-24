@@ -19,7 +19,7 @@ html,body {
 	position:absolute;
 	right: 0;
 	padding-bottom:24px;
-	top:20px;
+	top:12px;
 	margin-right:20px;
 	border-bottom: solid black 5px;
 }
@@ -78,8 +78,26 @@ html,body {
 	padding-bottom:15px;
 	margin:0 auto;
 }
+h5{
+	font-size:30px;
+}
 #contact h4{
 	font-size:15px;
+}
+#footer2{
+	width:100%;
+	text-align:center;	
+	padding-bottom:50px;
+	position:relative;
+	top:380px;
+}
+#footer2 img{
+	width:200px;
+	margin-bottom:-10px;
+}
+#footer2 h3{
+	font-weight:400;
+	font-size:13px;	
 }
 @media screen and (max-width: 800px) {
 	.slider-wrapper {
@@ -95,7 +113,7 @@ html,body {
 	#side-text{
 		font-size:18px;
 		right: -5px;
-		margin-top:14px;
+		margin-top:18px;
 		border-bottom: solid black 4px;
 	}
 	#contact h3{
@@ -104,8 +122,19 @@ html,body {
 	#contact h2{
 		font-size:25px;
 	}
+	#contact h5{
+		font-size:25px;
+	}
 	#contact h4{
 		font-size:12px;
+	}
+	#footer2 h3{
+		position:relative;
+		top:-8px;
+	}
+	#footer2{
+		top:300px;
+		padding-bottom:25px;
 	}
 }
 @media screen and (max-width: 520px) {
@@ -119,7 +148,7 @@ html,body {
 	#side-text{
 		font-size:15px;
 		right: -5px;
-		margin-top:5px;
+		margin-top:8px;
 		padding-bottom:16px;
 	}
 	.slider-wrapper{
@@ -132,7 +161,13 @@ html,body {
 	#contact h2{
 		font-size:17px;
 	}
+	#contact h5{
+		font-size:17px;
+	}
 	#contact h4{
 		font-size:10px;
+	}
+	#footer2 img{
+	width:180px;
 	}
 }

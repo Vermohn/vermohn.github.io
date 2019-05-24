@@ -19,7 +19,7 @@ html,body {
 	position:absolute;
 	right: 0;
 	padding-bottom:24px;
-	top:20px;
+	top:12px;
 	margin-right:20px;
 	border-bottom: solid black 5px;
 }
@@ -105,19 +105,19 @@ span{
 	opacity:1;
 }
 #box1{
-	background: url(images/m1.jpeg) no-repeat;
+	background: url(images/w1.jpeg) no-repeat;
 	background-size:cover;
 }
 #box2{
-	background: url(images/m2.jpeg) no-repeat;
+	background: url(images/w2.jpeg) no-repeat;
 	background-size:cover;
 }
 #box3{
-	background: url(images/m3.jpeg) no-repeat;
+	background: url(images/w3.jpeg) no-repeat;
 	background-size:cover;
 }
 #box4{
-	background: url(images/m4.jpeg) no-repeat;
+	background: url(images/w4.jpeg) no-repeat;
 	background-size:cover;
 }
 footer{
@@ -184,7 +184,7 @@ footer li:not(.underline){
 	#side-text{
 		font-size:18px;
 		right: -5px;
-		margin-top:14px;
+		margin-top:16px;
 		border-bottom: solid black 4px;
 	}
 	.slider-wrapper{
@@ -275,7 +275,7 @@ footer li:not(.underline){
 	#side-text{
 		font-size:15px;
 		right: -5px;
-		margin-top:5px;
+		margin-top:8px;
 		padding-bottom:16px;
 	}
 	.slider-wrapper{
