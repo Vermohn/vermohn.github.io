@@ -102,6 +102,12 @@ span{
 	transition: opacity .5s ease-in-out;
 	margin: 0px -85px;
 }
+#x{
+	opacity: 1;
+	background:rgba(138,4,6,1.00);
+	padding:8px;
+	color:white;
+}
 #box1:hover span,#box2:hover span,#box3:hover span,#box4:hover span{
 	opacity:1;
 }
