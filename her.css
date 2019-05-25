@@ -198,7 +198,7 @@ footer li:not(.underline){
 		top:-20px;
 		right:18px;
 		margin: 0 4%;
-		margin-bottom:120px;
+		margin-bottom:200px;
 	}
 	#two-boxes li h1{
 		font-size:20px;
@@ -223,7 +223,7 @@ footer li:not(.underline){
 		color:rgba(189,175,108,0.8);
 	}
 	footer{
-		top:1330px;
+		top:1500px;
 		height: 100px;
 	}
 	.underline a{
@@ -235,7 +235,7 @@ footer li:not(.underline){
 		top:-8px;
 	}
 	#footer2{
-		top:105px;
+		top:120px;
 		padding-bottom:25px;
 	}
 }
@@ -258,6 +258,10 @@ footer li:not(.underline){
 	}
 		footer{
 		top:1328px;
+	}
+	#footer2{
+		position:relative;
+		top:105px;
 	}
 	span{
 		position:relative;

@@ -145,20 +145,20 @@ img {
 #picture{
 	top:120px;
 }
+dl{
+	display:inline-block;
+	width:70px;
+}
 dt { 
 	display:block; 
-	float:left; 
-	width:150px; 
+	width:70px; 
 	text-align: right; 
 	font-weight:bold;
 }
-dt:after{
-	content:':';
-}
 dd { 
+	text-align:left;
 	display:block; 
-	height:24px;
-	width:250px;
+	width:70px;
 }
 dd,dt{
 	font-size:18px;
