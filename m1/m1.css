@@ -197,7 +197,7 @@ footer{
 	top: 80px;
 	font-weight:400;
 	font-size:13px;	
-	margin-bottom:60px;
+	padding-bottom:60px;
 }
 @media screen and (max-width: 830px) {
 	#logo{
@@ -233,7 +233,7 @@ footer{
 		height:100px;
 	}
 	#copyright{
-		margin-bottom:44px;
+		padding-bottom:54px;
 	}
 	footer #log{
 		width:200px;
@@ -260,6 +260,11 @@ footer{
 		top:100px;
 		float:none;
 		width:330px;
+	}
+	#side h1, #side h3{
+		text-align:left;
+		position:relative;
+		left:20px;
 	}
 	#detail{
 		position:relative;
