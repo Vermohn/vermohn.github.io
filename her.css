@@ -71,6 +71,7 @@ html,body {
 	position:relative;
 	top:-20px;
 	right:18px;
+	color:black;
 }
 #two-boxes li:hover{
 	cursor:pointer;
