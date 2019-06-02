@@ -78,6 +78,9 @@ html,body {
 	padding-bottom:15px;
 	margin:0 auto;
 }
+img{
+	width:200px;
+}
 h5{
 	font-size:30px;
 }
@@ -89,7 +92,7 @@ h5{
 	text-align:center;	
 	padding-bottom:50px;
 	position:relative;
-	top:380px;
+	top:310px;
 }
 #footer2 img{
 	width:200px;
@@ -105,10 +108,13 @@ h5{
 		height: 330px;
 		position: relative;
 	}
-		#logo-text{
+	#logo-text{
 		width:180px;
 		top:15px;
 		left:2px;
+	}
+	img{
+		width:150px;
 	}
 	#side-text{
 		font-size:18px;
@@ -133,7 +139,7 @@ h5{
 		top:-8px;
 	}
 	#footer2{
-		top:300px;
+		top:240px;
 		padding-bottom:25px;
 	}
 }
@@ -150,6 +156,9 @@ h5{
 		right: -5px;
 		margin-top:8px;
 		padding-bottom:16px;
+	}
+	img{
+		width:100px;
 	}
 	.slider-wrapper{
 		height: 260;
