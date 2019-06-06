@@ -65,6 +65,7 @@ img {
 /* Position the "next button" to the right */
 .next {
   right: 0;
+	z-index:1;
   border-radius: 0 0 0 0;
 }
 /* Caption text */
@@ -144,6 +145,11 @@ img {
 }
 #picture{
 	top:120px;
+}
+#detail h4{
+	font-size:25px;
+	text-align:left;
+	margin-bottom:20px;
 }
 dl{
 	display:inline-block;
@@ -229,6 +235,9 @@ footer{
 		left:-30px;
 		float:right;
 	}
+	#detail h4{
+		font-size:22px;
+	}
 	footer{
 		height:100px;
 	}
@@ -248,7 +257,7 @@ footer{
 		font-size:17px;
 	}
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 700px) {
 	#picture{
 		left:0px;
 		float:none;	
@@ -269,6 +278,9 @@ footer{
 	#detail{
 		position:relative;
 		left:30px;
+	}
+	#detail h4{
+		font-size:19px;
 	}
 	footer{
 		position:relative;
